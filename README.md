@@ -1,8 +1,6 @@
 Login to your registry (e.g. hub.docker.com by default)
 
-docker login
-username: xxxx
-password: xxxx
+docker login -u <username> -p <password>
 
 Build the image
 
@@ -10,7 +8,7 @@ docker build --build-arg VERSION=v1 . -t {username}/hostname:v1
 
 Push the image
 
-docker push -t {username}/hostname:v1
+docker push {username}/hostname:v1
 
 Run the image:
 
