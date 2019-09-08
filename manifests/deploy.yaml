@@ -30,7 +30,7 @@ spec:
         version: v1
     spec:
       containers:
-      - image: edebmit/hostname:v1
+      - image: edebmit/hostname:v2
         imagePullPolicy: Always
         name: hostname
         resources: {}

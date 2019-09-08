@@ -12,7 +12,7 @@ docker push {username}/hostname:v1
 
 Run the image:
 
-docker run --rm --name hostname -p 8080:80 -d rstarmer/hostname:v1
+docker run --rm --name hostname -p 8080:80 -d edebmit/hostname:v2
 
 Test that the image works:
 
