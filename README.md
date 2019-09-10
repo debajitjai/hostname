@@ -1,6 +1,6 @@
 Login to your registry (e.g. hub.docker.com by default)
 
-docker login -u <username> -p <password>
+docker login -u {username} -p {password}
 
 Build the image
 
