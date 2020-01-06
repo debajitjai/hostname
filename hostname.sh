@@ -4,6 +4,7 @@
 
 HOSTNAME=`hostname`
 VERSION=${VERSION:-v1}
+
 cat > /usr/share/nginx/html/index.html <<EOF
 <HTML>
   <HEAD>
@@ -20,6 +21,7 @@ cat > /usr/share/nginx/html/index.html <<EOF
   <BODY>
   <H1>THIS IS HOST $HOSTNAME</H1>
   <H2>And we're running version: $VERSION</H2>
+  <H2>From Server: $SERVER Port: $SERVER_PORT</H2>
   </BODY>
   </HTML>
 EOF
