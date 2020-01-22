@@ -25,7 +25,7 @@ Test that the image works:
 ```
 curl http://localhost:8080
 ```
-Stop the running instance by ctl+c or 
+Stop the running instance by ctl+d or 
 ```
 docker stop hostname
 ```
